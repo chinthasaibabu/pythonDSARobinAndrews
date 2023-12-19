@@ -1,2 +1,136 @@
 Python Data Structures and Algorithms
 
+GUI
+
+Maze Game
+
+The Stack Data Structure
+------------------------
+Stack of plates
+
+top plate is easy access point
+
+LIFO LAST IN FIRST OUT
+
+PUSH - push item to the top of the Stack
+
+POP - remove and return the top item
+
+PEEK  - return the top item without removing it
+
+is_empty(item) - return true if the Stack is empty
+
+insertion and deletion happen on the same end
+
+
+Build Stack in Python
+---------------------
+LIFO
+
+add item to top of the stack - append()
+
+retrive from top of the stack - pop()
+
+both happen from the right
+
+stack01.py
+
+revStack01.py
+
+
+
+2D list Data Structure
+-----------------------
+
+representing grids like screen pixels
+
+representing tabular data like a spreadsheet
+
+matrics for mathematical application
+
+representing game boards
+
+stroing and accessing data from scientifcs experiments
+
+2D  indices can be used to access DOM elements
+
+
+
+
+2D Lists and Graphs
+-------------------
+nodes and edges
+
+graph theory 
+
+each cell in the list corresponds to a node
+
+adjacent cells are connected by edges
+
+
+undirected - doesnt matter
+
+directed - nodes matter
+
+weights - 10 1 3 7 8
+
+represents grids as graphs
+
+edges connect 
+
+obstacle
+
+
+cartesian coordinates 
+
+matrix coordinates
+
+i,j = 4,2
+
+
+x,y = 5,3
+
+
+
+representing a maze in a text file
+
+
+
+
+Read Maze from Text File
+
+
+
+
+depth - first search Algorithm
+------------------------------
+
+DFS
+
+not return shortest path
+
+OPTIMIZATIONS FOR CRITERIA (COST SPEED SAFETY FUEL ETC)
+
+
+PATHFINDING
+
+SCHEDULING Algorithms
+
+
+DFS Pseudocode
+
+Stack : [start_pos]
+
+Predecessors = {start_pos : None}
+
+pop the stack
+
+is this the goal
+
+up right down left
+
+
+GRID TRACER APP
+
+
+
